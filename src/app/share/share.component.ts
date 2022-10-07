@@ -12,6 +12,7 @@ export class ShareComponent implements OnInit{
   dateCreation !: Date;
   shares !: number;
   imageURL !: string;
+  buttonText !: string;
 
   ngOnInit(){
     this.titre = "Ariless";
@@ -19,5 +20,19 @@ export class ShareComponent implements OnInit{
     this.dateCreation = new Date();
     this.shares = 6;
     this.imageURL = "https://cdn.pixabay.com/photo/2015/05/31/16/03/teddy-bear-792273_1280.jpg";
+    this.buttonText = "Oh share !"
+  
     }
+
+    onClickShare(){
+     if (this.buttonText === "Oh share !") {
+      this.shares++;
+      this.buttonText ="Oups, unShare !";
+     } else {
+      this.shares--;
+      this.buttonText = "Oh share !"
+     }
+    }
+
+    
 }

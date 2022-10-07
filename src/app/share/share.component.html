@@ -3,5 +3,7 @@
     <p>{{ description }}</p>
     <img [src]="imageURL" [alt]="titre">
     <p> Mise en ligne le : {{ dateCreation }}</p>
-    <p> 📸 : {{shares}}</p>
+    <p> 
+        <button (click)="onClickShare()" >{{buttonText}}</button>
+        📸 : {{shares}}</p>
 </div>

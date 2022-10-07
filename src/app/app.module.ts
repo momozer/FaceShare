@@ -3,13 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { ShareComponent } from './share/share.component';
-import { NavbarComponent } from './navbar/navbar.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ShareComponent,
-    NavbarComponent
   ],
   imports: [
     BrowserModule
