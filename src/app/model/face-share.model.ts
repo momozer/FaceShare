@@ -1,9 +1,8 @@
 export class FaceShare { 
-    constructor(
-        public title: string, 
-        public description: string, 
-        public dateCreation: Date, 
-        public shares : number, 
-        public imageURL : string){
-    }
+    title !: string;
+    description!: string;
+    dateCreation!: Date; 
+    shares !: number; 
+    imageURL !: string;
+    localisation ?: string;
 }

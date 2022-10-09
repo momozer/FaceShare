@@ -1,8 +1,9 @@
-<div class="share-face-card">
+<div class="share-face-card" [ngClass]="{shared : buttonText === 'Oups, unShare !'}">
     <h2>{{ faceShare.title }} </h2>
     <p>{{ faceShare.description }}</p>
     <img [src]="faceShare.imageURL" [alt]="faceShare.titre">
     <p> Mise en ligne le : {{ faceShare.dateCreation }}</p>
+    <p *ngIf="faceShare.localisation">Photo prise à {{faceShare.localisation}}</p>
     <p> 
         <button (click)="onClickShare()" >{{buttonText}}</button>
         📸 : {{faceShare.shares}}</p>
