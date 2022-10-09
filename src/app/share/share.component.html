@@ -1,9 +1,9 @@
 <div class="share-face-card">
-    <h2>{{ titre }} </h2>
-    <p>{{ description }}</p>
-    <img [src]="imageURL" [alt]="titre">
-    <p> Mise en ligne le : {{ dateCreation }}</p>
+    <h2>{{ faceShare.title }} </h2>
+    <p>{{ faceShare.description }}</p>
+    <img [src]="faceShare.imageURL" [alt]="faceShare.titre">
+    <p> Mise en ligne le : {{ faceShare.dateCreation }}</p>
     <p> 
         <button (click)="onClickShare()" >{{buttonText}}</button>
-        📸 : {{shares}}</p>
+        📸 : {{faceShare.shares}}</p>
 </div>
