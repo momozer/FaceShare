@@ -40,7 +40,7 @@ export class FaceShareService {
   }
 
   getFaceShareById(faceShareid: number): FaceShare {
-    const faceShare = this.faceShares.find(faceShare => faceShareid === faceShareid);
+    const faceShare = this.faceShares.find(faceShare => faceShare.id === faceShareid);
     if(!faceShare){
       throw new Error("FaceShare non existant");
     }else{
@@ -53,7 +53,7 @@ export class FaceShareService {
     shareType === "share" ? faceShare.shares++ : faceShare.shares--;
 }
   unshareFaceShareById(faceShareid: number) : void {
-    const faceShare = this.faceShares.find(faceShare => faceShareid === faceShareid);
+    const faceShare = this.faceShares.find(faceShare => faceShare.id === faceShareid);
     if (faceShare) {
       faceShare.shares--;
   }else{
