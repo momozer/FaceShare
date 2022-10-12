@@ -9,6 +9,7 @@ import { ShareComponent } from './share/share.component';
 import { FaceShareListComponent } from './face-share-list/face-share-list.component';
 import { HeaderComponent } from './header/header.component';
 import { LandingPageComponentComponent } from './landing-page-component/landing-page-component.component';
+import { SingleShareComponent } from './single-share/single-share.component';
 
 
 
@@ -19,6 +20,7 @@ import { LandingPageComponentComponent } from './landing-page-component/landing-
     FaceShareListComponent,
     HeaderComponent,
     LandingPageComponentComponent,
+    SingleShareComponent,
   ],
   imports: [
     BrowserModule,

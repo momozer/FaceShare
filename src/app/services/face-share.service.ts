@@ -14,7 +14,6 @@ export class FaceShareService {
         dateCreation:  new Date(),
         shares: 0,
         imageURL: "https://cdn.pixabay.com/photo/2015/05/31/16/03/teddy-bear-792273_1280.jpg",
-        localisation : "Dans la forêt"
      },
      {
         id : 2,
