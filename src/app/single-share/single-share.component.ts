@@ -32,9 +32,7 @@ export class SingleShareComponent implements OnInit {
      }
     }
 
-    onDetail(){
-      this.route.navigateByUrl(`faceshare/${this.faceShare.id}`)
-    }
+   
 
 
 }
