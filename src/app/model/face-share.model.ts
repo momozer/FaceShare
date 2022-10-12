@@ -1,4 +1,5 @@
 export class FaceShare { 
+    id !: number;
     title !: string;
     description!: string;
     dateCreation!: Date; 
