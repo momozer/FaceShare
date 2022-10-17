@@ -7,7 +7,8 @@ import { SingleShareComponent } from './single-share/single-share.component';
 const routes : Routes = [
     {path: 'faceshare/:id', component: SingleShareComponent},
     {path: 'faceshare', component: FaceShareListComponent},
-    {path: '', component: LandingPageComponentComponent}
+    {path: '', component: LandingPageComponentComponent},
+    {path: 'amis', component: LandingPageComponentComponent}
 ]
 
 @NgModule({

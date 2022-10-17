@@ -19,5 +19,8 @@ export class HeaderComponent implements OnInit {
   onContinue() : void {
     this.router.navigateByUrl("faceshare");
   }
+  onAmis() : void {
+    this.router.navigateByUrl("amis");
+  }
 
 }
