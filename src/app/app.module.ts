@@ -10,6 +10,7 @@ import { FaceShareListComponent } from './face-share-list/face-share-list.compon
 import { HeaderComponent } from './header/header.component';
 import { LandingPageComponentComponent } from './landing-page-component/landing-page-component.component';
 import { SingleShareComponent } from './single-share/single-share.component';
+import { AmiComponent } from './ami/ami.component';
 
 
 
@@ -21,6 +22,7 @@ import { SingleShareComponent } from './single-share/single-share.component';
     HeaderComponent,
     LandingPageComponentComponent,
     SingleShareComponent,
+    AmiComponent,
   ],
   imports: [
     BrowserModule,
