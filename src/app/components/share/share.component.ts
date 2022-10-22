@@ -1,7 +1,7 @@
 import { Router } from '@angular/router';
-import { FaceShareService } from './../services/face-share.service';
+import { FaceShareService } from '../../services/face-share.service';
 import { Component, OnInit, Input} from '@angular/core';
-import { FaceShare } from '../model/face-share.model';
+import { FaceShare } from '../../model/face-share.model';
 
 @Component({
   selector: 'app-share',

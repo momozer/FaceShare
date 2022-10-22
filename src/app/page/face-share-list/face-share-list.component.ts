@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { FaceShare } from '../model/face-share.model';
-import { FaceShareService } from '../services/face-share.service';
+import { FaceShare } from '../../model/face-share.model';
+import { FaceShareService } from '../../services/face-share.service';
 
 @Component({
   selector: 'app-face-share-list',

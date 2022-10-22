@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { Ami } from '../model/ami.model';
+import { Ami } from '../../model/ami.model';
 
 @Component({
   selector: 'app-ami',
