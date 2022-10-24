@@ -4,12 +4,14 @@ import { RouterModule, Routes } from "@angular/router";
 import { LandingPageComponentComponent } from './page/landing-page-component/landing-page-component.component';
 import { SingleShareComponent } from './page/single-share/single-share.component';
 import { AmiComponent } from './components/ami/ami.component';
+import { SingleAmiComponent } from './page/single-ami/single-ami.component';
 
 const routes : Routes = [
     {path: 'faceshare/:id', component: SingleShareComponent},
     {path: 'faceshare', component: FaceShareListComponent},
     {path: '', component: LandingPageComponentComponent},
-    {path: 'amis', component: AmiComponent}
+    {path: 'amis', component: AmiComponent},
+    {path:'amis/:id', component: SingleAmiComponent}
 ]
 
 @NgModule({

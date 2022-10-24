@@ -11,6 +11,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { LandingPageComponentComponent } from './page/landing-page-component/landing-page-component.component';
 import { SingleShareComponent } from './page/single-share/single-share.component';
 import { AmiComponent } from './components/ami/ami.component';
+import { SingleAmiComponent } from './single-ami/single-ami.component';
 
 
 
@@ -23,6 +24,7 @@ import { AmiComponent } from './components/ami/ami.component';
     LandingPageComponentComponent,
     SingleShareComponent,
     AmiComponent,
+    SingleAmiComponent,
   ],
   imports: [
     BrowserModule,
